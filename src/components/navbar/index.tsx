@@ -1,3 +1,4 @@
+import HiddenNav from 'components/hidden-nav';
 import '../../assets/css/all.min.css';
 import '../../assets/css/simple-line-icons.min.css';
 
@@ -355,6 +356,7 @@ const NavBar = () => {
               </div>
             </div>
           </div>
+          <HiddenNav />
         </header>
   );
 };

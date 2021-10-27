@@ -12778,9 +12778,9 @@ header a {
 .header-transparent {
   position: absolute;
   right: 0;
+  transform: translateY(50%);
   left: 0;
   z-index: 1040;
-  display: block;
 }
 .header-box {
   display: flex;
@@ -22788,8 +22788,5 @@ i.wishlist-empty {
   }
   .maga-sale-container .mega-subtitle {
     font-size: 1.4rem;
-  }
-  .header-transparent {
-    display: none;
   }
 }
