@@ -1,14 +1,37 @@
 @import url(css_1.css);
 @import url(css.css);
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap");
+
+.header {
+  margin-bottom: 10rem;
+}
+
+.root {
+  width: 100% !important;
+}
+
+.header-middle {
+  /* background-color: #005580 !important; */
+}
+
+body {
+  overflow: scroll;
+  overflow-y: hidden;
+}
+
+.content {
+  margin-bottom: 6rem;
+}
 
 a {
   text-decoration: none !important;
 }
 
 html {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
+  width: 100vw !important;
 }
+
 
 @-webkit-keyframes closeWindow {
   0% {
@@ -6779,7 +6802,7 @@ label {
   float: left;
   content: "";
   color: #5bc0de;
-  font-family: Font Awesome\5 Free;
+  font-family: Font awesome\5 Free;
   font-size: 2rem;
   font-weight: 900;
   line-height: 1;
@@ -8012,7 +8035,7 @@ figure .porto-loading-icon {
   display: inline-block;
   font-size: 11px;
   letter-spacing: 0.1em;
-  font-family: Font Awesome\5 Free;
+  font-family: Font awesome\5 Free;
   font-weight: 900;
 }
 .ratings-container .product-ratings {
@@ -8080,7 +8103,7 @@ figure .porto-loading-icon {
 .product-select.type-check.checked:before {
   font-size: 8px;
   content: "";
-  font-family: Font Awesome\5 Free;
+  font-family: Font awesome\5 Free;
   font-weight: 900;
   -webkit-font-smoothing: antialiased;
   text-indent: 0;
@@ -12857,16 +12880,23 @@ header .separator {
 .top-notice {
   position: relative;
   padding: 0.9rem 2rem 1rem;
-  font-size: 1.3rem;
+  font-size: 1.2rem;
   font-family: Poppins, sans-serif;
   line-height: 2;
   letter-spacing: 0.025em;
+  white-space: nowrap;
   overflow: hidden;
+  text-overflow: ellipsis;
 }
 .top-notice h5 {
   color: inherit;
   font-size: inherit;
   font-weight: 500;
+}
+@media screen and (min-width: 1183px) and (max-width: 1365px) {
+  .top-notice {
+    
+  }  
 }
 .top-notice small {
   font-size: 0.8461em;
@@ -13376,7 +13406,7 @@ header .separator {
 }
 .icon-cancel:before {
   content: "";
-  font-family: Font Awesome\5 Free;
+  font-family: Font awesome\5 Free;
   font-weight: 900;
 }
 @media (min-width: 992px) {
@@ -16326,7 +16356,7 @@ span.toggle:before {
   top: 2px;
   font-size: 20px;
   font-weight: 900;
-  font-family: Font Awesome\5 Free;
+  font-family: Font awesome\5 Free;
   color: #0cc485;
 }
 .cart-message span,
@@ -16427,7 +16457,7 @@ span.toggle:before {
   .product-action
   .add-cart.added-to-cart:after {
   margin-left: 8px;
-  font-family: Font Awesome\5 Free;
+  font-family: Font awesome\5 Free;
   content: "";
   font-weight: 600;
   font-size: 1.6rem;
@@ -17244,7 +17274,7 @@ main .sticky-header .product-ratings:before {
   display: inline-block;
   margin-top: -2px;
   vertical-align: middle;
-  font-family: Font Awesome\5 Free;
+  font-family: Font awesome\5 Free;
   font-weight: 900;
   margin-right: 1.8rem;
   color: #21293c;
@@ -17471,7 +17501,7 @@ main .sticky-header .product-ratings:before {
   left: 0;
   height: 14px;
   line-height: 1;
-  font-family: Font Awesome\5 Free;
+  font-family: Font awesome\5 Free;
   text-indent: 0;
   overflow: hidden;
   white-space: nowrap;
@@ -20275,7 +20305,7 @@ p.noproduct-msg:before {
   top: 2px;
   margin-right: 5px;
   font-size: 20px;
-  font-family: Font Awesome\5 Free;
+  font-family: Font awesome\5 Free;
   font-weight: 900;
 }
 .checkout-container .checkout-steps .address-box .custom-control-label:after,
@@ -20874,7 +20904,7 @@ figure .btn-play:hover {
 .list li:before {
   content: "";
   position: relative;
-  font-family: Font Awesome\5 Free;
+  font-family: Font awesome\5 Free;
   font-weight: 900;
   margin-left: -11px;
   margin-right: 6px;
@@ -21716,7 +21746,7 @@ i.wishlist-empty {
   top: 2px;
   margin-right: 9px;
   font-size: 20px;
-  font-family: Font Awesome\5 Free;
+  font-family: Font awesome\5 Free;
   font-weight: 900;
   color: #0cc485;
 }
@@ -21955,7 +21985,7 @@ i.wishlist-empty {
 }
 .http-error ul.nav-list li a:before,
 .http-error ul[class^="wsp-"] li a:before {
-  font-family: Font Awesome\5 Free;
+  font-family: Font awesome\5 Free;
   font-weight: 900;
   content: "";
   display: inline-block;
