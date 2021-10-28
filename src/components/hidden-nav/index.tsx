@@ -84,7 +84,7 @@ const HiddenNav = () => {
                     ×
                   </a>
                   <div className="dropdownmenu-wrapper">
-                    <div className="dropdown-cart-header">Shopping Cart</div>
+                    <div className="dropdown-cart-header">Carrinho</div>
                     <p className="pt-3 mt-2">No products in the cart.</p>
                   </div>
                 </div>
